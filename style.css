@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  #transaction-form,
+  #blockchain-viewer {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 80px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }

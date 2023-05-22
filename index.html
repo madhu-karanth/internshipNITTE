@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blockchain Transaction Viewer</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Blockchain Transaction Viewer</h1>
+
+  <div id="transaction-form">
+    <h2>Make a Transaction</h2>
+    <label for="sender">Sender:</label>
+    <input type="text" id="sender">
+    <br>
+    <label for="recipient">Recipient:</label>
+    <input type="text" id="recipient">
+    <br>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount">
+    <br>
+    <button onclick="makeTransaction()">Submit</button>
+  </div>
+
+  <div id="blockchain-viewer">
+    <h2>Blockchain Viewer</h2>
+    <button onclick="viewBlockchain()">View Blockchain</button>
+    <ul id="blockchain-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
